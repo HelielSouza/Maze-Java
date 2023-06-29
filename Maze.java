@@ -6,8 +6,8 @@ public class Maze implements Cloneable{
     private Stack<Coordinate>        way; //refere se ao way que ele vai percorrer nesse maze
     private Stack<Coordinate>        inverse; //referese ao way que sera printado quando solveMaze o maze
     private Coordinate               current = null; //referese ao way current
-    private Queue<Coordinate>         adjPos; //posicoes adjantes e posicao current
-    private Stack<Queue<Coordinate>>  possibilities; 
+    private Queue<Coordinate>        adjPos; //posicoes adjantes e posicao current
+    private Stack<Queue<Coordinate>> possibilities; 
     private char                     above;
     private char                     below;
     private char                     right;
