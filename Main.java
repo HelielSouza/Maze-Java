@@ -4,7 +4,7 @@ public class Main {
         try {
 
             System.out.println("\n\n ----------------------- LABIRINTO  -----------------------");
-            System.out.println("Como se chama o file do maze? ");
+            System.out.println("Como se chama o file do maze?");
 
             String arq = Keyboard.getString(); //usa a classe keyboard para capturar o que foi digitado
             Maze l1 = new Maze(arq); // é criado um novo objeto maze e como parametro desse objeto vai o que foi digitado

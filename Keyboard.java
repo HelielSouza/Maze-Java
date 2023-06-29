@@ -59,7 +59,7 @@ public class Keyboard {
             System.out.println(e);
         }
         catch(NumberFormatException erro){
-            throw new Exception("int invalido");
+            throw new Exception("Int invalido");
         }
         return ret;
     }

@@ -15,7 +15,7 @@ public class Coordinate implements Cloneable{
     //setters
     public void setRow(int row) throws Exception{ 
         if (row < 0) // se o valor for menor que zero
-            throw new Exception("Linha invalida"); // lança essa exceção
+            throw new Exception("Linha inválida"); // lança essa exceção
     
         this.x = row; //atribuição
     }

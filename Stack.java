@@ -90,13 +90,13 @@ public class Stack<X> implements Cloneable { //x é o parametro generico para cr
         String ret;
 
         if (this.last == 0)
-            ret = "1 element";
+            ret = "1 elemento";
         
         else
             ret = (this.last + 1) + " elementos";
         
         if (this.last != -1)
-            ret += ", sendo o last" + this.element[this.last];
+            ret += ", sendo o ultimo" + this.element[this.last];
         
         return ret;
     }

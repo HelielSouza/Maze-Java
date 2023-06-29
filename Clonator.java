@@ -14,7 +14,7 @@ public class Clonator<X>{
 
         try {//aqui a classe é armazenada no objeto classe, por isso representa a classe X
 
-            meth = classe.getMethod("clone", tpsParmsForms); //o metodo que estava nulo recebe o getMethod cpm seus parametros 
+            meth = classe.getMethod("Clone", tpsParmsForms); //o metodo que estava nulo recebe o getMethod cpm seus parametros 
         } catch (NoSuchMethodException erro) {
         }
 

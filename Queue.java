@@ -9,7 +9,7 @@ public class Queue <X> implements Cloneable
     public Queue(int size) throws Exception
     {
         if (size<=0)
-            throw new Exception ("Tamanho invalido");
+            throw new Exception ("Tamanho inválido");
 
         this.element       = new Object [size]; //this.element=new X [size];
         this.initialSize = size;

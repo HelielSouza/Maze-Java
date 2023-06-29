@@ -62,7 +62,7 @@ public class File {
             System.out.println(e);
         }
         catch(NumberFormatException error){
-            throw new Exception("int invalido");
+            throw new Exception("Int invalido");
         }
         return ret;
     }

@@ -23,7 +23,7 @@ public class Maze implements Cloneable{
         int numberColumn = str.length(); //ela conta quantos elementos tem na row
 
         if (!isValidMaze(maze_file, numberRow, numberColumn)){ //se ele for nao valido, dispara a exceção
-            throw new Exception("Maze invalido");
+            throw new Exception("Maze inválido");
         }
 
         this.numberOfRows = numberRow;
